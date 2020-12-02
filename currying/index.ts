@@ -7,4 +7,4 @@ type Curry<T extends Function> = T extends (
     : (p: P) => Curry<(...rest: Rest) => R>
   : never;
 
-declare function Currying<T extends (...args) => any>(fn: T): Curry<T>;
+declare function Currying<T extends (...args: any[]) => any>(fn: T): Curry<T>;
