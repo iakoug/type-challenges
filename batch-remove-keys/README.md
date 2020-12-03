@@ -7,3 +7,6 @@ Case:
 ```ts
 type Result = BatchRemoveKeys<{ age; name; gender, 'age' | 'name'}>; // expected to be { gender }
 ```
+
+**[Answer](./index.ts)**
+**[Test cases](./test.spec.ts)**

@@ -13,3 +13,6 @@ interface Todo {
 
 type Keys = GetReadonlyKeys<Todo>; // expected to be "title" | "description"
 ```
+
+**[Answer](./index.ts)**
+**[Test cases](./test.spec.ts)**

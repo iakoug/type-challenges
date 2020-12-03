@@ -19,3 +19,6 @@ type Result = TupleToSpecObject<A | B | C>;
 //     3: [1, 2];
 // }
 ```
+
+**[Answer](./index.ts)**
+**[Test cases](./test.spec.ts)**

@@ -7,3 +7,6 @@ For example,
 ```ts
 type Filtered = FilterOut<[1, 2, null, 3], null>; // [1, 2, 3]
 ```
+
+**[Answer](./index.ts)**
+**[Test cases](./test.spec.ts)**
